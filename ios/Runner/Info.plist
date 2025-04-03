@@ -43,5 +43,16 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+
+	<!-- Permissions for share_plus -->
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>mailto</string>
+		<string>sms</string>
+	</array>
+
+	<!-- Permission for just_audio (if using microphone or background audio) -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app requires access to the microphone to play audio.</string>
 </dict>
 </plist>
